@@ -1,0 +1,14 @@
+Package: dcemriboost
+Title: Boosting for DCEMRI data
+Version: 0.1
+Author: Martina Feilke
+Maintainer: Martina Feilke <martina.feilke@stat.uni-muenchen.de>
+Description: Voxelwise and spatially regularized boosting for DCEMRI data
+Depends:
+    R (>= 3.1.1)
+Imports:
+    quadprog,
+    minpack.lm,
+    ParamHelpers
+License: GPL (>= 2)
+LazyData: false
