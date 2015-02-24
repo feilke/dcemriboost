@@ -6,3 +6,7 @@ Boosting for DCEMRI data. With dcemriboost voxelwise and spatially regularized b
 - Run this in R to install the current GitHub version:
 
 
+  ```
+  devtools::install_github("feilke/dcemriboost")
+  ```
+
