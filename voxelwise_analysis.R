@@ -81,8 +81,6 @@ results_list_allK[[8]] <- reduceResultsList(reg,filterResults(reg, fun=function(
 results_list_allK[[9]] <- reduceResultsList(reg,filterResults(reg, fun=function(job, res) res$image == 9))
 results_list_allK[[10]] <- reduceResultsList(reg,filterResults(reg, fun=function(job, res) res$image == 10))
 
-# save(results_list_allK,file="results_list_allK.RData")
-
 numbercomp <- array(NA, c(I,J,K))
 M <- 10 
 uniquekeps <- array(NA, c(I*J,M,K))
@@ -98,8 +96,6 @@ for(k in 1:K){
     uniquekeps[i,1:m,k] <- results_list_allK[[k]][[i]]$keps_un
   }
 }
-
-# save(uniquekeps,file="uniquekeps.RData")
   
 kepvals <- uniquekeps
 
@@ -154,8 +150,6 @@ results_refit_list_allK[[7]] <- reduceResultsList(reg_refit,filterResults(reg_re
 results_refit_list_allK[[8]] <- reduceResultsList(reg_refit,filterResults(reg_refit, fun=function(job, res) res$image == 8))
 results_refit_list_allK[[9]] <- reduceResultsList(reg_refit,filterResults(reg_refit, fun=function(job, res) res$image == 9))
 results_refit_list_allK[[10]] <- reduceResultsList(reg_refit,filterResults(reg_refit, fun=function(job, res) res$image == 10))
-
-# save(results_refit_list_allK,file="results_refit_list_allK.RData")
 
 # average MSE, estimated average number of tissue compartments, 
 # percentage of voxels for which the number of tissue compartments is correctly estimated

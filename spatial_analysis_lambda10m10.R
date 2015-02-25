@@ -313,8 +313,6 @@ results_refit_list_allK[[8]] <- reduceResultsList(reg_refit,filterResults(reg_re
 results_refit_list_allK[[9]] <- reduceResultsList(reg_refit,filterResults(reg_refit, fun=function(job, res) res$image == 9))
 results_refit_list_allK[[10]] <- reduceResultsList(reg_refit,filterResults(reg_refit, fun=function(job, res) res$image == 10))
 
-save(results_refit_list_allK,file="results_refit_list_allK.RData")
-
 # average MSE, estimated average number of tissue compartments, 
 # percentage of voxels for which the number of tissue compartments is correctly estimated
 
