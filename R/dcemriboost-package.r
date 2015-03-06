@@ -1,6 +1,6 @@
-#' dcemriboost - Boosting for DCEMRI data.
+#' dcemriboost - Boosting for DCE-MRI data.
 #'
-#' With dcemriboost voxelwise and spatially regularized boosting for DCEMRI data can be performed.
+#' With dcemriboost voxelwise and spatially regularized boosting for DCE-MRI data can be performed.
 #' 
 #' Implemented methods are
 #' 

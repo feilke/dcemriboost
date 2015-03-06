@@ -4,9 +4,9 @@
 \name{dcemriboost}
 \alias{dcemriboost}
 \alias{dcemriboost-package}
-\title{dcemriboost - Boosting for DCEMRI data.}
+\title{dcemriboost - Boosting for DCE-MRI data.}
 \description{
-With dcemriboost voxelwise and spatially regularized boosting for DCEMRI data can be performed.
+With dcemriboost voxelwise and spatially regularized boosting for DCE-MRI data can be performed.
 }
 \details{
 Implemented methods are
